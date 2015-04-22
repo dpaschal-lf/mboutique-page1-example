@@ -1,0 +1,108 @@
+html{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+body{
+	margin: 0 auto;
+	width: 1000px;
+}
+/***********HEADER*************/
+.header{
+	width: 1000px;
+	height: 72px;
+	background: #fffabe;
+
+}
+.top-menu{
+	display: inline-block;
+	width: 70%;
+	position: absolute;
+	right: 0px;
+	top: 8%;
+}
+.top-menu li{
+	list-style-type: none;
+	display: inline;
+	margin: 20px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #515151;
+}
+.top-menu li a{
+	text-decoration: none;
+	color: inherit;
+}
+.top-menu li a:visited
+{
+	/*color: white;*/
+}
+.logo{
+	background-image: url(assets/images/logo.png);
+	height: 33px;
+	width: 156px;
+	display: inline-block;
+	position: relative;
+	
+	#margin-left: 45px;
+	#margin-top: 17px;
+	left: 45px;
+	top: 17px;
+}
+
+/***********END HEADER*************/
+
+
+/***********main content*************/
+
+.welcome-image{
+	background-image:url('assets/images/welcome-image.png');
+	width: 1000px;
+	height: 400px;
+
+}
+.content-image{
+	background-image:url(assets/images/macarons-image.png);
+	width: 30%;
+	height: 240px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	background-repeat:no-repeat;
+}
+.content-text{
+	position: relative;
+	float: right;
+	width: 70%;
+}
+
+/********* weekday items ********/
+.weekday{
+	width: 126px;
+	height: 140px;
+	background-color: #fffabe;
+	display: inline-block;
+	font-size: 14px;
+	margin: 30px 10px;
+	padding: 0px;
+	font-size:0px;
+}
+.weekday li{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 25%;
+	font-size: initial;
+	padding-left: 8px;
+	padding-right: 8px;
+	line-height: 212%;
+}
+.weekday img{
+	float: right;
+}
+.coconut-color{
+	background-color: #824603;
+
+}
+.vanilla-color{
+		background-color: #df5277;
+}
